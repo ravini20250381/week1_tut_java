@@ -14,7 +14,7 @@ public class person {
     public String getName(){
         return name;
     }
-    public String getemail(){
+    public String getEmail() {
         return email;
-
+    }
 }
