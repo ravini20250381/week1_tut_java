@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.PathVariable;
 
 @RestController
-@RequestMapping
+@RequestMapping("/products")
 public class productController {
     @GetMapping("/{id}")
     public product getById(@PathVariable Long id) {
