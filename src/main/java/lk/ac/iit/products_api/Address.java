@@ -16,4 +16,14 @@ public class Address {
         return city; }
     public String getPostcode() {
         return postcode; }
+    public void setStreet(String street){
+        this.street=street;
+    }
+    public void setCity(String city){
+        this.city=city;
+    }
+    public void setPostcode(String postcode){
+        this.postcode=postcode;
+    }
+
 }

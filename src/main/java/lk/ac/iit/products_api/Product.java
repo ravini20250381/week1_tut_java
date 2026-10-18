@@ -1,20 +1,20 @@
+
 package lk.ac.iit.products_api;
 
-public class product {
-    private long id;
+public class Product {
+
+    private Long id;
     private String name;
     private double price;
 
-    public product() {
-    }
-
-    public product(long id, String name, double price) {
+    // Constructor
+    public Product(Long id, String name, double price) {
         this.id = id;
         this.name = name;
         this.price = price;
-
     }
 
+    // Getters
     public Long getId() {
         return id;
     }
@@ -27,13 +27,17 @@ public class product {
         return price;
     }
 
+    // Setters
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public void setName(String name) {
-       this.name=name;
+        this.name = name;
     }
-     public void setId(long id){
-        this.id=id;
-    }
-    public void setPrice(double price){
-        this.price=price;
+
+    public void setPrice(double price) {
+        this.price = price;
     }
 }
+

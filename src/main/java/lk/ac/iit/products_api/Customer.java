@@ -20,4 +20,16 @@ public class Customer {
         return email; }
     public Address getAddress() {
         return address; }
+    public void setId(long id){
+        this.id=id;
+    }
+    public void setName(String name){
+        this.name=name;
+    }
+    public void setEmail(String email){
+        this.email=email;
+    }
+    public void setAddress(Address address){
+        this.address=address;
+    }
 }
